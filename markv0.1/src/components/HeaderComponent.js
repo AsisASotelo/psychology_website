@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+
 import {
   Collapse,
   Navbar,
@@ -22,7 +24,7 @@ function HeaderComponent(props){
   return (
     <div>
       <Navbar color="light" light expand="md">
-    <NavbarBrand href="/"><img width="100" src="ucsblogo.png"/></NavbarBrand>
+      <NavbarBrand href="/"><img width="100" src="ucsblogo.png"/></NavbarBrand>
         <NavbarText className = "navtext">Social Perception Lab</NavbarText>
         <NavbarToggler onClick = {toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -45,6 +47,8 @@ function HeaderComponent(props){
 
 
       </Navbar>
+
+      
     </div>
   );
 }
