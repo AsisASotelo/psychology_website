@@ -36,7 +36,7 @@ function FooterComponent(props){
                 
 
 
-                   </Container>
+            </Container>
                     
                     
 
